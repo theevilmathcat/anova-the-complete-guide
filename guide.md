@@ -536,7 +536,7 @@ Requires repeated measures with likely sphericity violation. Sphericity is the a
 ---
 
 ## Minitab Procedure
-
+# procedure-for-anova
 ### 1. Do the ANOVA First
 
 `Stat > ANOVA > General Linear Model > Fit General Linear Model`
@@ -721,3 +721,4 @@ You can also do a **Main Effects Plot**. It will plot the average mean, and if y
   We want low bias, low variance, but in practice, this doesn't happen.
   - In simple models → high bias, low variance
   - In complex models → low bias, high variance
+
