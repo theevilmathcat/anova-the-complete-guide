@@ -73,6 +73,7 @@ If the groups are truly different, then:
 # 1. **BY NUMBER OF FACTORS**
 ## **1A. One-way ANOVA (1 factor)**
 **Scenario:** Compare squat 1RM across three training programs.
+'''
 Program   Squat_1RM
 A         150
 A         155
@@ -83,7 +84,7 @@ B         145
 C         165
 C         170
 C         172
-
+'''
 ---
 ## **1B. Two-way ANOVA (2 factors, crossed)**
 **Scenario:** Squat 1RM by Program and Gender.
@@ -613,3 +614,4 @@ Variável explicativa   independent variable, predictor	X
 We want low bias, low variance, but in practice, this doesnt happen.
 - - In Simple models → high bias, low variance
 - - In Complex models → low bias, high variance.
+
