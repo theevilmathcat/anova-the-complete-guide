@@ -31,7 +31,7 @@ After performing the test, we check the ANOVA assumptions:
 **c)** **Homogeneity of variances** ("homoscedasticity").
 
 If all assumptions are not satisfied:
-- try first to transform the response variable by using excel to block do wither square root of each value or log (x+1) of each value. Then try again the anova. If still not ok, do the Kruskal-Wallis test instead.
+- try first to transform the response variable by using excel to block do either square root of each value or log (x+1) of each value. Then try again the anova. If still not ok, do the Kruskal-Wallis test instead.
 
 If all assumptions are satisfied:
 - Look at the **p-value** of the factor in the ANOVA table.
