@@ -58,7 +58,7 @@ If the groups are truly different, then:
 - **Balanced ANOVA** (equal n per cell)
 - **Unbalanced ANOVA** (unequal n)
 
-**5. By Additional Modelling Constraints:**
+**5. By Modelling Constraints:**
 - **ANOVA with blocking** / Randomized block design (RBD)
 - **Nested ANOVA** (hierarchical factors)
 - **Crossed ANOVA** (all factor combinations tested)
@@ -745,4 +745,5 @@ You can also do a **Main Effects Plot**. It will plot the average mean, and if y
 - Obs 26 (row 26 in data: Experienced, 195 kg deadlift at 78 kg body): Under-performed by 7.43 kg (model predicted 202.43). Std Resid = -3.68 → Big underachiever (maybe form issue or off day).
 - Obs 41 (row 41: Experienced? Wait—data row 41 is 192 at 76 kg Experienced): Under by ~5 kg (Std Resid -2.54). Another low performer.
 - Obs 48 (row 48: 212 at 80 kg Experienced): Over-performed by 4.16 kg (+2.03 Std Resid). Beast mode—stronger than expected
+
 
