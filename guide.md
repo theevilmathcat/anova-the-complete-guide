@@ -71,6 +71,19 @@ If the groups are truly different, then:
 - **Greenhouse–Geisser** / Huynh–Feldt–corrected RM ANOVA
 - **Sphericity-corrected repeated-measures ANOVA**
 
+**Notes:**
+The ANOVA model has one dependent variable and at least one independent variable. 
+Dependent Variable (called "response variable" or "response"; always continuous):
+
+    Response: Continuous variable being measured
+    Cells: Each cell represents one unique combination of factor levels
+    Replicates: Number of observations within each cell (can be 1 or more)
+
+Independent Variable(s) (called "factors"; always categorical):
+
+    Factor: Categorical variable
+    Levels: A Factor has levels also called groups. Also categorical
+    example: Factor "Time", Levels: "Morning", "Afternoon", "Evening"
 ---
 
 ## 1. BY NUMBER OF FACTORS
@@ -745,5 +758,6 @@ You can also do a **Main Effects Plot**. It will plot the average mean, and if y
 - Obs 26 (row 26 in data: Experienced, 195 kg deadlift at 78 kg body): Under-performed by 7.43 kg (model predicted 202.43). Std Resid = -3.68 → Big underachiever (maybe form issue or off day).
 - Obs 41 (row 41: Experienced? Wait—data row 41 is 192 at 76 kg Experienced): Under by ~5 kg (Std Resid -2.54). Another low performer.
 - Obs 48 (row 48: 212 at 80 kg Experienced): Over-performed by 4.16 kg (+2.03 Std Resid). Beast mode—stronger than expected
+
 
 
