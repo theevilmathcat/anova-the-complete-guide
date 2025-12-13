@@ -1,7 +1,7 @@
 # ANOVA (Univariate) Design Options - Quick Reference
 
 ## Foundation
-ANOVA (Analysis of Variance) is a **linear regression model** for analyzing differences between group means.
+Created by Fisher, ANOVA (Analysis of Variance) is a **linear regression model** for analyzing differences between group means.
 It achieves this by comparing variances rather than means directly.
 If group means truly differ, the variance between groups (how much group means vary from the overall mean) will be large relative to the variance within groups (how much individual observations vary within each group). ANOVA compares these two sources of variance using an F-statistic:
 F = Variance Between Groups / Variance Within Groups
